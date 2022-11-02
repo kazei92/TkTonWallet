@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name" translatable="false">TkTon</string>
+    <string name="transaction_sent">Sent</string>
+    <string name="button_send">Send</string>
+    <string name="button_get">Get</string>
+    <string name="message_congratulations">Congratulations</string>
+    <string name="message_wallet_created">Your TON wallet has just been created.</string>
+    <string name="message_24secretwords">24 secret words</string>
+    <string name="message_save_words">Write down these 24 words in the correct order and store them in a secret place</string>
+    <string name="message_restore_wallet">Use these secret words to restore access to your wallet.</string>
+    <string name="message_question_wallet">Do you have a TON wallet?</string>
+    <string name="button_create_new">Create New</string>
+    <string name="button_import_existing">Import Existing</string>
+    <string name="button_continue">Continue</string>
+    <string name="placeholder_enter_address">Enter the address</string>
+    <string name="placeholder_enter_amount">Enter the amount</string>
+    <string name="placeholder_enter_comment">Enter a comment</string>
+    <string name="message_your_balance">Your balance</string>
+    <string name="button_close">Close</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_confirm">Confirm</string>
+    <string name="wallet_navigation">Wallet</string>
+    <string name="explorer_navigation">Explore</string>
+    <string name="settings_navigation">Settings</string>
+    <string name="title_transaction_details">Transaction Details</string>
+    <string name="title_time">Time</string>
+    <string name="title_fee">Blockchain Fee</string>
+    <string name="title_current_wallet">Current Wallet</string>
+    <string name="button_logout">Quit</string>
+    <string name="title_comment">Comment</string>
+    <string name="message_control">Only your control it.</string>
+    <string name="message_wallet_access">To be able to always have access to it, please set up a secure password and write down the secret words.</string>
+    <string name="message_external_balance">Account balance</string>
+    <string name="button_search">Search</string>
+    <string name="title_switch_mode">Switch Mode</string>
+    <string name="title_address_spy">Address Spy</string>
+    <string name="message_check_address">Check any address</string>
+    <string name="title_address_transactions">Transactions Spy</string>
+    <string name="message_check_transactions">See transactions of any address</string>
+    <string name="message_are_sure">Are you sure?</string>
+    <string name="message_wallet_delete">Please confirm that you want to delete your wallet from the app.</string>
+    <string name="title_address">Address</string>
+    <string name="title_amount">Amount</string>
+    <string name="title_bugreport">Report a bug</string>
+    <string name="title_donations">Donations</string>
+    <string name="title_sourcecode">Source Code</string>
+    <string name="title_share">Share</string>
+    <string name="title_openwith">Open with</string>
+    <string name="title_secretkey">Secret Key</string>
+    <string name="title_exporter">Export</string>
+    <string name="link_telegram" translatable="false">https://t.me/tktonsupport</string>
+    <string name="button_import">Import</string>
+    <string name="message_testnet">testnet</string>
+    <string name="message_mainnet">mainnet</string>
+    <string name="message_switch_mode">You will change the network mode of the app.</string>
+    <string name="message_transfer_success">You have successfully transfered</string>
+    <string name="message_error_retrieve">Couldn\'t retrieve data from network, please try again later.</string>
+    <string name="title_error_occurred">Error occurred</string>
+    <string name="title_copy_address">Use this address</string>
+    <string name="link_github" translatable="false">https://github.com/kazei92</string>
+    <string name="donation_address" translatable="false">EQB_0wCuUyjk-Gtz5Om2aTO36AyqYPayWnzKl4bPzGtCkRQZ</string>
+    <string name="message_donation">If you want to support the project, please send donations to address:</string>
+    <string name="button_copy">Copy</string>
+    <string name="title_result">Result</string>
+    <string name="message_invalid_words">Invalid words</string>
+</resources>
