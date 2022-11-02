@@ -1,0 +1,1 @@
+TkTon wallet est un portefeuille Android open source pour le blockchain TON

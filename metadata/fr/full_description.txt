@@ -1,0 +1,9 @@
+TkTon Wallet est un portefeuille Android open soure pour le blockchain TON (The Open Network).
+
+Fonctionnalité principale:
+
+* Possibilité de connecter plusieurs portefeuille
+* Possibilité de regarder n'importe laquelle adresse sur réseau (son solde, etc).
+* Possibilité de regarder les transactions de n'importe laquelle adresse sur réseau
+* Material Design
+* Utilise le lite-client avec les preuves Merkel (pas de http)

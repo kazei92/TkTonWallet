@@ -1,3 +1,5 @@
+TkTon Wallet
+
 TkTon Wallet is an opensource Android wallet for TON (The Open Network) blockchain.
 
 Main features:
