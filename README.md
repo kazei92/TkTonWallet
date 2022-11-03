@@ -1,6 +1,7 @@
 # TkTon Wallet
 
 TkTon Wallet is an opensource Android wallet for TON (The Open Network) blockchain.
+Created using Jetpack Compose.
 
 ## Main features:
 
@@ -8,11 +9,15 @@ TkTon Wallet is an opensource Android wallet for TON (The Open Network) blockcha
 - Possibility to check any address on network 
 - Possibility to check transactions of any address on network 
 - Material Design 
-- Uses lite-client with Merkle proofs (no http endpoint)
+- Uses lite-client with Merkle proofs (without HTTP REST proxy server)
 
 ## License
 
 GNU v3
+
+## Support the project
+
+TON: EQB_0wCuUyjk-Gtz5Om2aTO36AyqYPayWnzKl4bPzGtCkRQZ
 
 ## Screenshots
 

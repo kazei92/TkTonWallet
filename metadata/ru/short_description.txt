@@ -1,1 +1,1 @@
-TON Кошелек с открытым исходным кодом для Android
+TkTon это кошелек для TON (The Open Network) блокчейна.

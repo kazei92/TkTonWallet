@@ -1,1 +1,1 @@
-Open Source TON wallet for Android
+TkTon is a wallet for TON blockchain
