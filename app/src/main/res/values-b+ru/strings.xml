@@ -45,7 +45,7 @@
     <string name="title_share">Поделиться</string>
     <string name="title_openwith">Открыть с помощью</string>
     <string name="title_secretkey">Секретный ключ</string>
-    <string name="title_exporter">Экпортировать</string>
+    <string name="title_exporter">Экспортировать</string>
     <string name="button_import">Импортировать</string>
     <string name="message_testnet">тестовая сеть</string>
     <string name="message_mainnet">главная сеть</string>
@@ -59,4 +59,5 @@
     <string name="message_invalid_words">Неправильная комбинация слов</string>
     <string name="button_logout">Выйти</string>
     <string name="message_donation">Если вы хотите поддержать проект, используйте этот адрес:</string>
+    <string name="button_add_another">Подключить еще</string>
 </resources>

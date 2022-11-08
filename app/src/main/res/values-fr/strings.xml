@@ -60,4 +60,5 @@
     <string name="message_donation">Si vous voulez soutenir le projet, vous pouver faire un don à cet adresse:</string>
     <string name="message_restore_wallet">Utilser cet mots secrets pour restaurer l\'accès à votre portefeuille.</string>
     <string name="message_save_words">Gardez ces mots 24 mots secrets en bon ordre et à un endroid sûr.</string>
+    <string name="button_add_another">Ajouter un autre</string>
 </resources>

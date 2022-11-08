@@ -61,7 +61,7 @@ fun WalletPicker(navController: NavController){
                         navController.navigate("LandingScreen")
                     })
                     {
-                        Text(" Add another")
+                        Text(" ${stringResource(R.string.button_add_another)}")
                     }
                 }
             }

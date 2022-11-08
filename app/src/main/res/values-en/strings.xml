@@ -52,7 +52,7 @@
     <string name="message_testnet">testnet</string>
     <string name="message_mainnet">mainnet</string>
     <string name="message_switch_mode">You will change the network mode of the app.</string>
-    <string name="message_transfer_success">You have successfully transfered</string>
+    <string name="message_transfer_success">You have successfully transferred</string>
     <string name="message_error_retrieve">Couldn\'t retrieve data from network, please try again later.</string>
     <string name="title_error_occurred">Error occurred</string>
     <string name="title_copy_address">Use this address</string>
@@ -60,4 +60,5 @@
     <string name="title_result">Result</string>
     <string name="message_invalid_words">Invalid words</string>
     <string name="message_donation">If you want to support the project, please send donations to address:</string>
+    <string name="button_add_another">Add another</string>
 </resources>
