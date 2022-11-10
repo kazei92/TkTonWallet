@@ -1,24 +1,19 @@
 package com.tkton.wallet.ui.screens.compact
 
 import androidx.compose.foundation.layout.*
-import androidx.compose.material.Text
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.unit.dp
 
 import androidx.navigation.NavController
 import com.tkton.wallet.R
-import com.tkton.wallet.data.DataManager
 import com.tkton.wallet.data.load10Transactions
 import com.tkton.wallet.data.loadAccountInfo
 import com.tkton.wallet.ui.components.*
 import com.tkton.wallet.ui.theme.Green500
 import com.tkton.wallet.ui.theme.Red500
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
 import org.ton.block.Transaction
 
 @Composable
@@ -78,7 +73,7 @@ fun SpyAddressScreen(){
                 loadAccountInfo(
                     address, context, scope,
                     onFinish = {
-                        accountBalance = it
+                        accountBalance = "${String.format("%.3f", if (it != "null") it.toDouble() else 0.0)} TON"
                         showProgress = false
                         showResult = true
                     },

@@ -95,14 +95,19 @@ fun load10Transactions(
     onError: (String) -> Unit = {}
 ) {
     scope.launch(Dispatchers.Default) {
-        try {
-            val liteClient = DataManager.getInstance(context).getLiteClient()
-            val transactions = liteClient.loadLast10Transactions(address)
-            onFinish(transactions)
-        } catch (e: Exception) {
-            onError(e.toString())
+        var attempts = 1
+        var error : Exception? = null
+        while (attempts < 10) {
+            try {
+                val liteClient = DataManager.getInstance(context).getLiteClient()
+                val transactions = liteClient.loadLast10Transactions(address)
+                onFinish(transactions)
+            } catch (e: Exception) {
+                error = e
+                attempts++
+            }
         }
-
+        if (error != null) { onError(error.toString()) }
     }
 }
 
@@ -114,13 +119,20 @@ fun loadAccountInfo(
     onError: (String) -> Unit = {}
 ) {
     scope.launch(Dispatchers.Default) {
-        try {
-            val liteClient = DataManager.getInstance(context).getLiteClient()
-            val accountInfo = liteClient.getAccountInfo(address)
-            val accountBalance = accountInfo?.storage?.balance?.coins.toString()
-            onFinish(accountBalance)
-        } catch (e: Exception) {
-            onError(e.toString())
+        var attempts = 1
+        var error : Exception? = null
+        while (attempts < 10) {
+            try {
+                val liteClient = DataManager.getInstance(context).getLiteClient()
+                val accountInfo = liteClient.getAccountInfo(address)
+                val accountBalance = accountInfo?.storage?.balance?.coins.toString()
+                onFinish(accountBalance)
+                break
+            } catch (e: Exception) {
+                error = e
+                attempts++
+            }
         }
+        if (error != null) { onError(error.toString()) }
     }
 }

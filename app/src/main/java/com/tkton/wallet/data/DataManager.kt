@@ -2,7 +2,6 @@ package com.tkton.wallet.data
 
 import android.content.Context
 import android.os.Build
-import android.util.Log
 import androidx.room.*
 import com.tkton.wallet.tonops.AppLiteClient
 import kotlinx.coroutines.delay
@@ -282,5 +281,6 @@ abstract class DataManager : RoomDatabase() {
         transactions().clean()
         words().clean()
         wallets().clean()
+        settings().delete(SettingType.CURRENT_WALLET_ADDRESS)
     }
 }
