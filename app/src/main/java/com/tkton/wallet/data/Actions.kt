@@ -102,9 +102,10 @@ fun load10Transactions(
                 val liteClient = DataManager.getInstance(context).getLiteClient()
                 val transactions = liteClient.loadLast10Transactions(address)
                 onFinish(transactions)
+                break
             } catch (e: Exception) {
-                error = e
                 attempts++
+                if (attempts == 10) { error = e }
             }
         }
         if (error != null) { onError(error.toString()) }
@@ -129,8 +130,8 @@ fun loadAccountInfo(
                 onFinish(accountBalance)
                 break
             } catch (e: Exception) {
-                error = e
                 attempts++
+                if (attempts == 10) { error = e }
             }
         }
         if (error != null) { onError(error.toString()) }

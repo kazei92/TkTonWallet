@@ -25,7 +25,7 @@ TON: EQB_0wCuUyjk-Gtz5Om2aTO36AyqYPayWnzKl4bPzGtCkRQZ
 
 ## Screenshots
 
-<img alt="Main Screen of the app" src="/metadata/en-US/images/phoneScreenshots/mainScreen.png?raw=true" title="Main Screen" width="360" height="800"/>
-<img alt="Explorer Screen" src="/metadata/en-US/images/phoneScreenshots/explorerScreen.png?raw=true" title="Explorer Screen" width="360" height="800"/>
-<img alt="Send Screen" src="/metadata/en-US/images/phoneScreenshots/sendScreen.png?raw=true" title="Send Screen" width="360" height="800"/>
-<img alt="Settings Screen" src="/metadata/en-US/images/phoneScreenshots/settingsScreen.png?raw=true" title="Settings Screen" width="360" height="800"/>
+<img alt="Main Screen of the app" src="/metadata/en-US/images/phoneScreenshots/1.png?raw=true" title="Main Screen" width="360" height="800"/>
+<img alt="Explorer Screen" src="/metadata/en-US/images/phoneScreenshots/2.png?raw=true" title="Explorer Screen" width="360" height="800"/>
+<img alt="Send Screen" src="/metadata/en-US/images/phoneScreenshots/3.png?raw=true" title="Send Screen" width="360" height="800"/>
+<img alt="Settings Screen" src="/metadata/en-US/images/phoneScreenshots/4.png?raw=true" title="Settings Screen" width="360" height="800"/>
