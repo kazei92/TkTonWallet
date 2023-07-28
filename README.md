@@ -21,7 +21,7 @@ GNU v3
 
 ## Support the project
 
-TON: EQB_0wCuUyjk-Gtz5Om2aTO36AyqYPayWnzKl4bPzGtCkRQZ
+**TON**: ```EQB_0wCuUyjk-Gtz5Om2aTO36AyqYPayWnzKl4bPzGtCkRQZ```
 
 ## Screenshots
 
